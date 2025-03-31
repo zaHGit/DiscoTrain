@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class S_Furnace : MonoBehaviour
 {
+    public GameObject processedOre;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,15 @@ public class S_Furnace : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "RawOre")
+        {
+
+            Instantiate(processedOre,transform.position, Quaternion.identity);
+            Destroy(other.gameObject);
+        }
     }
 }

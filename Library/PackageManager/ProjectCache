@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638786258330867524
+      ticks: 638790548104918886
     m_Hash: 3566565443
   m_LockFileStatus:
     m_FilePath: C:/Users/Joel/OneDrive/Documents/GitHub/DiscoTrain/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638786258330867524
+      ticks: 638790548104918886
     m_Hash: 3229512031
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -31,7 +31,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638786258257735375
+      ticks: 638790548031844523
     m_Hash: 4235084898
 m_ProjectPath: C:/Users/Joel/OneDrive/Documents/GitHub/DiscoTrain/Packages
 m_EditorVersion: 2022.3.57f1 (9d8bd91adc0a)
@@ -3145,9 +3145,11 @@ m_ResolvedPackages:
     - 2.0.20
     - 2.0.21
     - 2.0.22
+    - 2.0.23
     compatible:
     - 2.0.22
-    recommended: 2.0.22
+    - 2.0.23
+    recommended: 2.0.23
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
