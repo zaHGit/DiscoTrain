@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class S_Furnace : MonoBehaviour
 {
+<<<<<<< Updated upstream
     public GameObject processedOre;
+=======
+    public GameObject Processed_Ore;
+>>>>>>> Stashed changes
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +21,7 @@ public class S_Furnace : MonoBehaviour
         
     }
 
+<<<<<<< Updated upstream
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "RawOre")
@@ -25,5 +30,12 @@ public class S_Furnace : MonoBehaviour
             Instantiate(processedOre,transform.position, Quaternion.identity);
             Destroy(other.gameObject);
         }
+=======
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "RawOre")
+            Instantiate(Processed_Ore, other.gameObject.transform.position, Quaternion.identity);
+            Destroy(other.gameObject);
+>>>>>>> Stashed changes
     }
 }
